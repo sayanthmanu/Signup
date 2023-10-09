@@ -1,0 +1,237 @@
+ body{
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    margin-top:30px;
+   
+    
+ }
+ h1{
+    
+    color:black;
+    box-sizing: border-box;
+    margin-top:-11.6px;
+    border-radius:25px 25px 0px 0px;
+    padding-bottom:10px;
+    padding-top:28px;
+    font-family:sans-serif;
+    font-weight:normal;
+    border-style:solid;
+    border-color:white; 
+    border-collapse: collapse;
+    
+
+    
+   
+   
+ }
+ #div1{
+
+    height:700px;
+    width:390px;
+    position:absolute;left:36.5%;
+    margin-top: 30px;
+    font-style: normal;
+    background-color: rgb(249, 248, 248);
+    text-align: center;
+    padding-top:11px;
+    border-radius:25px;
+    box-sizing: border-box;
+    color:rgb(77, 77, 77);
+    border-style:solid;
+    border-color: black;
+   
+
+    
+}
+#firstname{
+    margin-top:10px;
+    font-size: 100%;
+    padding-inline: 60px;
+    border-radius:5px;
+    border-width:.5px;
+    background-color:white;
+    border-color:white;
+    border-style: solid;
+    box-sizing: border-box;
+    
+}
+
+
+#firstname:hover{
+   border-style:solid;
+   border-radius: 5px;
+   border-color:rgba(84, 135, 255, 0.733);
+
+   
+}
+#lastname{
+    margin-top:20px;
+    font-size:100%;
+    padding-inline: 60px;
+    border-radius:5px;
+    border-width:.5px;
+    background-color: white;
+    border-color:white; 
+    border-style: solid;
+    box-sizing: border-box;
+}
+#lastname:hover{
+    border-style:solid;
+   border-radius: 5px;
+   border-color:rgba(84, 135, 255, 0.733);
+}
+#email{
+    margin-top:20px;
+    font-size:100%;
+    padding-inline: 60px;
+    border-radius:5px;
+    border-width:.5px;
+    background-color: white;
+    border-color:white;
+    border-style: solid;
+}
+#email:hover{
+    border-style:solid;
+   border-radius: 5px;
+   border-color:rgba(84, 135, 255, 0.733);
+}
+#password{
+    margin-top:20px;
+    font-size:100%;
+    padding-inline: 60px;
+    border-radius:5px;
+    border-width:.5px;
+    background-color: white;
+    border-color:white;
+    border-style: solid;
+}
+#password:hover{
+    border-style:solid;
+   border-radius: 5px;
+   border-color:rgba(84, 135, 255, 0.733);
+}
+#confirmpass{
+    margin-top:20px;
+    font-size:100%;
+    border-radius:5px;
+    border-width:.5px;
+    background-color: white;
+    border-color:white;
+    border-style: solid;
+    padding-inline:60px;
+}
+#confirmpass:hover{
+    border-style:solid;
+   border-radius: 5px;
+   border-color:rgba(84, 135, 255, 0.733);
+}
+#Gender{
+    margin-top:28px;
+    font-size:80%;
+    font-family:sans-serif;
+    
+    
+}
+#Gender span{
+    background-color:white;
+    border-radius: 2px;
+    font-family:sans-serif;
+    color:rgba(0, 0, 0, 0.551);
+    text-decoration: none;
+    
+
+}
+#Lang{
+    margin-top:22px;
+    font-size:100%;
+   
+    
+}
+#interest{
+    max-width:350px;
+    min-width:350px;
+    max-height: 120px;
+    min-height: 120px;
+    position:absolute;left:4%;
+    height:100px;
+    margin-top:18px;
+    font-size:85%;
+    border-style:solid;
+    border-radius:5px;
+    background-color: white;
+    border-color:white;
+    border-style: solid;
+    font-family:sans-serif;
+    border-width:.5px;
+
+    
+}
+#interest:hover{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(84, 135, 255, 0.733);
+}
+#terms{
+    margin-top: 160px;
+    font-size: 80%;
+    font-family:sans-serif;
+    color:rgba(0, 0, 0, 0.551);
+    
+}
+#Button{
+    
+    margin-top: 50px;
+}
+
+
+#btn{
+    background-color:rgb(41,57,194);
+    border-radius: 4px;
+    padding-inline: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    color:white;
+    font-family:sans-serif;
+    font-weight:normal;
+    font-size: 110%;
+    border:none;
+    width:50%;
+    position:static;
+}
+#btn:hover{
+    
+    border-color:white;
+    border-style: solid;
+}
+
+
+.input-control .error {
+
+    color: #ff3860;
+    font-family:sans-serif;
+    font-size:60%;
+    position:absolute;left:15%;
+}
+#gendererror{
+    font-family:sans-serif;
+    font-size:75%;
+    color:#ff3860;
+    position:absolute;left:15%;
+}
+.Interest .errorinterest{
+    margin-bottom:5x;
+    font-family: sans-serif;
+    font-size:63%;
+    color:#ff3860;
+    
+    padding-bottom:7px;
+    position:absolute;left:15%;
+    position:absolute;bottom:21.3%;
+    ;
+    
+}
+#Lang .error{
+    font-family:sans-serif;
+    font-size:60%;
+    color:#ff3860;
+    position:absolute;left:15%;
+}

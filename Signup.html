@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="Signup.css">
+        
+        
+    </head>
+    <body>
+        <div id="div1">
+           
+            <form id="form">
+                 <h1>SIGN UP</h1>
+            
+               <div class="input-control">
+                <input type="text" id="firstname" name="FirstName" placeholder=" First Name"><br>
+                <div class="error"></div>
+               </div>
+                <div class="input-control">
+                    <input type="text" id="lastname" name="LastName" placeholder=" Last Name"><br>
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <input id="email" name="EMAil" placeholder="Email address" type="email">
+                   
+                    <div class="error"></div>
+                </div> 
+                <div class="input-control">
+                    <input type="password" id="password" name="Password" placeholder="Create Password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                <input type="password" id="confirmpass" name="ConfirmPass" placeholder="Confirm Password">
+                <div class="error"></div>
+                
+                </div>
+                <div id="Gender">
+                    <span class="genderadjust"><label for="gender">&nbsp;Select Gender : </label></span>
+                    
+                    <input type="radio" name="gender" id="gender1">Male &nbsp;&nbsp;
+                    <input type="radio" name="gender" id="gender2">Female &nbsp;&nbsp;
+                    <input type="radio" name="gender" id="gender3">Other&nbsp;&nbsp;
+                    <div id=gendererror></div>
+                </div>
+                <div id="Lang">
+                    <select id="language" name="language">
+                        <option value="">Select Language</option>
+                        <option value="English">English</option>
+                        <option value="Chinese">Chinese</option>
+                        <option value="French">French</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="German">German</option>
+                        
+
+
+                    </select>
+                    <div class="error"></div>
+                </div>
+                <div class="Interest">
+                    <textarea id="interest" name="Interest" placeholder=" Tell us about your interests in about 100 words..." maxlength="100"></textarea>
+                    <div class="errorinterest"></div>
+                </div>
+                
+                <div id="terms">
+                    <input type="checkbox" id="tnc"  name="T&C">Check if you agree to <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjFiIy-qM-AAxVs-TgGHVfYDZEQFnoECA0QAQ&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Den-US&usg=AOvVaw2ysawA7Hx9r8SUvUBN9nn6&opi=89978449"> terms and conditions
+                    </a> 
+                </div>
+                <div id="Button">
+                    <button type="submit" id="btn" onclick="ischecked()" name="Submit">Create Account</button>
+                </div>
+            </form>
+        </div> 
+        <script defer src="signup.js"></script>
+    </body>
+
+</html>
